@@ -16,6 +16,7 @@ body {
 a {
   color: #03C4EB;
   transition: 0.5s;
+  text-align: center;
 }
 
 a:hover, a:active, a:focus {
@@ -32,8 +33,18 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 0 0;
   padding: 0;
+}
+
+.firsthead{
+  /*font-size: 200%;*/
+  /*font-size: 200px;*/
+  font-family: 'Aladin', cursive;
+  /*font-size: 3em;*/
+}
+#hero .firsthead{
+  font-size: 100px;
 }
 
 /* Prelaoder */
@@ -119,6 +130,9 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+  }
+  #hero .firsthead{
+    font-size: 50px;
   }
 }
 
@@ -540,10 +554,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-title {
-  margin-left: 80px;
+  /*margin-left: 80px;*/
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #services .service-title a {
@@ -551,7 +566,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-description {
-  margin-left: 80px;
+  /*margin-left: 20px;*/
   line-height: 24px;
 }
 
