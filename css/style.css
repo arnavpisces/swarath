@@ -499,7 +499,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background: url(../img/about-img.jpg) left top no-repeat;
+  /*margin-top: 100px;*/
+  background: url(../img/about-img.jpg) left bottom no-repeat;
   background-size: 50%;
 }
 
