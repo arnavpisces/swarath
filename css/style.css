@@ -126,6 +126,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
@@ -499,6 +500,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container {
   background: url(../img/about-img.jpg) left top no-repeat;
+  background-size: 50%;
 }
 
 #about .about-content {
@@ -566,6 +568,55 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-description {
+  /*margin-left: 20px;*/
+  line-height: 24px;
+}
+
+#services1 {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#services1 .service-item {
+  margin-bottom: 20px;
+}
+
+#services1 .service-icon {
+  float: left;
+  background: #03C4EB;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #03C4EB;
+}
+
+#services1 .service-icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#services1 .service-item:hover .service-icon {
+  background: #fff;
+}
+
+#services1 .service-item:hover .service-icon i {
+  color: #03C4EB;
+}
+
+#services1 .service-title {
+  /*margin-left: 80px;*/
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#services1 .service-title a {
+  color: #111;
+}
+
+#services1 .service-description {
   /*margin-left: 20px;*/
   line-height: 24px;
 }
@@ -693,9 +744,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50%;
   border: 6px solid #fff;
   margin-bottom: 15px;
+  margin-top: 10%;
+  margin-left: 20%;
   overflow: hidden;
-  height: 260px;
-  width: 260px;
+  height: 160px;
+  width: 160px;
 }
 
 #testimonials .profile .pic img {
@@ -876,4 +929,61 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+.fbplugin{
+  margin-left: 25%;
+}
+@media only screen and (min-width: 1200px){
+  .fbplugin{
+    margin-left: 37%;
+  }
+}
+@media only screen and (max-width: 1200px){
+  #testimonials .profile .pic {
+  border-radius: 50%;
+  border: 6px solid #fff;
+  margin-bottom: 15px;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+.fbplugin{
+  margin-left: 33%;
+}
+}
+@media only screen and (max-width: 992px){
+  #testimonials .profile .pic {
+  border-radius: 50%;
+  border: 6px solid #fff;
+  margin-bottom: 15px;
+  margin-top: 10%;
+  margin-left: 40%; 
+}
+.fbplugin{
+  margin-left:28%;
+}
+}
+
+@media only screen and (max-width:768px){
+  .fbplugin{
+    margin-left: 23%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #testimonials .profile .pic {
+  border-radius: 50%;
+  border: 6px solid #fff;
+  margin-bottom: 15px;
+  margin-top: 10%;
+  margin-left: 27%;
+}
+.fbplugin{
+  margin-left:15%;
+}
+}
+
+@media only screen and (max-width:400px){
+  .fbplugin{
+    margin-left: 8%;
+  }
 }
